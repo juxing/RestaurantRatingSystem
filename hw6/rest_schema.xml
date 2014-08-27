@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.w3schools.com" xmlns="http://www.w3schools.com" elementFormDefault="qualified">
+
+<xs:element name="Restaurants">
+  <xs:complexType>
+  <xs:sequence>
+    <xs:element name="Restaurant" maxOccurs="unbounded">
+      <xs:complexType>
+      <xs:sequence>
+        <xs:element name="RName" type="xs:string"/>
+        <xs:element name="FType" type="xs:string"/>
+        <xs:element name="Street" type="xs:string"/>
+        <xs:element name="City" type="xs:string"/>
+        <xs:element name="State" type="xs:string"/>
+        <xs:element name="ZCode" type="usZipCode"/>
+        <xs:element name="Year" type="xs:gYear"/>
+        <xs:element name="Month" type="xs:gMonth"/>
+        <xs:element name="Day" type="xs:gDay"/>
+        <xs:element name="Rate" type="myRate"/>
+        <xs:element name="Comment" type="xs:string"/>
+      </xs:sequence>
+      </xs:complexType>
+    </xs:element>
+  </xs:sequence>
+  </xs:complexType>
+</xs:element>
+
+<xs:simpleType name="usZipCode">
+  <xs:restriction base="xs:string">
+    <xs:pattern value="[0-9]{5}(-[0-9]{4})?"/>
+  </xs:restriction>
+</xs:simpleType>
+
+<xs:simpleType name="myRate">
+  <xs:restriction base="xs:string">
+    <xs:enumeration value="Good"/>
+    <xs:enumeration value="Fair"/>
+    <xs:enumeration value="Bad"/>
+  </xs:restriction>
+</xs:simpleType>
+
+</xs:schema>

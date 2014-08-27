@@ -1,0 +1,64 @@
+<!--BY MING ZHANG-->
+<html>
+
+<head>
+  <title>SWE 642 HW2</title>
+  <script language=javascript src="HW2.js"></script>
+</head>
+
+<body>
+  <h1 align="center">HW2 -- Ming Zhang<h1>
+  
+  <p>
+  Readme:
+  <ul><font size=-1>
+    <li>Year should be 4 digits number, Month should be 2 digits number(1 ~ 12), Day should be 2 digits number(1 ~ 31).
+    <li>Name should only contain chars, numbers, spaces.
+    <li>Check date button will check the date inputs, and print them to Date output.
+    <li>Check name button will check the name input, and print it to Name output.
+  </ul>
+
+  <hr>
+
+  <center>
+  <form onsubmit="return submitIt(this)" method="post" action="http://cs.gmu.edu:8080/offutt/servlet/formHandler">
+    <table>
+      <tr>
+        <td bgcolor=pink align=middle>Year</td>
+        <td><input type="text" name="Year" id="Year"></td>
+        <td bgcolor=pink align=middle>Month</td>
+        <td><input type="text" name="Month" id="Month"></td>
+        <td bgcolor=pink align=middle>Day</td>
+        <td><input type="text" name="Day" id="Day"></td>
+      </tr>
+
+      <tr>
+        <td bgcolor=pink align=middle>Name</td>
+        <td><input type="text" name="Name" id="Name"></td>
+      </tr>
+
+      <tr>       
+        <td>Date output</td>
+        <td><input type="text" name="Dateoutput" id="Dateoutput" value="Null"></td>
+        <td>Name output</td>
+        <td><input type="text" name="Nameoutput" id="Nameoutput" value="Null"></td>
+      </tr>
+     
+      <tr>
+        <td><button type="button" onclick="checkDate()">Check date</button></td>
+        <td><button type="button" onclick="checkName()">Check name</button></td>
+      </tr>
+
+      <tr>
+        <td><input type="submit" value="Submit" name="submit"></td>
+        <td><input type="reset" value="Reset" name="reset"></td>
+      </tr>
+    </table>
+  </form>
+  </center>
+
+</body>
+
+</html>
+
+

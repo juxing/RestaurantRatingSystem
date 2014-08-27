@@ -1,0 +1,80 @@
+<Restaurants>
+	<Restaurant>
+		<RName>KFC</RName>
+		<FType>American Food</FType>
+		<Street>1234 KFC street</Street>
+		<City>Fairfax</City>
+		<State>VA</State>
+		<ZCode>28765</ZCode>
+		<Year>2013</Year>
+		<Month>1</Month>
+		<Day>1</Day>
+		<Rate>Good</Rate>
+		<Comment></Comment>
+	</Restaurant>
+	<Restaurant>
+		<RName>Taco</RName>
+		<FType>Mexico Food</FType>
+		<Street>1222 main street</Street>
+		<City>Fairfax</City>
+		<State>VA</State>
+		<ZCode>29999</ZCode>
+		<Year>2001</Year>
+		<Month>8</Month>
+		<Day>13</Day>
+		<Rate>Fair</Rate>
+		<Comment>Just soso</Comment>
+	</Restaurant>
+	<Restaurant>
+		<RName>Red Lobster</RName>
+		<FType>American Food</FType>
+		<Street>7663 ldajkdj road</Street>
+		<City>kkiel</City>
+		<State>CA</State>
+		<ZCode>20187</ZCode>
+		<Year>2008</Year>
+		<Month>1</Month>
+		<Day>1</Day>
+		<Rate>Good</Rate>
+		<Comment>Delicisou</Comment>
+	</Restaurant>
+	<Restaurant>
+		<RName>TianFu</RName>
+		<FType>Chinese Food</FType>
+		<Street>1222 main street</Street>
+		<City>Fairfax</City>
+		<State>VA</State>
+		<ZCode>29999</ZCode>
+		<Year>2013</Year>
+		<Month>11</Month>
+		<Day>12</Day>
+		<Rate>Good</Rate>
+		<Comment></Comment>
+	</Restaurant>
+	<Restaurant>
+		<RName>Bonjo</RName>
+		<FType>French Food</FType>
+		<Street>1777 ff streat</Street>
+		<City>Fairfax</City>
+		<State>VA</State>
+		<ZCode>20000</ZCode>
+		<Year>2013</Year>
+		<Month>5</Month>
+		<Day>16</Day>
+		<Rate>Fair</Rate>
+		<Comment>Not bad</Comment>
+	</Restaurant>
+	<Restaurant>
+		<RName>Bonjo--update</RName>
+		<FType>French Food</FType>
+		<Street>1777 ff streat</Street>
+		<City>Fairfax</City>
+		<State>VA</State>
+		<ZCode>20000</ZCode>
+		<Year>2013</Year>
+		<Month>5</Month>
+		<Day>16</Day>
+		<Rate>Fair</Rate>
+		<Comment>Not bad</Comment>
+	</Restaurant>
+</Restaurants>
